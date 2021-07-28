@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  height: 100vh;
+  background: #dd78d9;
+  background: linear-gradient(349deg, #dd78d9 5%, #e4681b 39%, #bd4d31 68%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dd78d9",endColorstr="#bd4d31",GradientType=1);
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #fafafa;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 460px;
+  height: 600px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.container h1 {
+  margin: 12px 0;
+}
+
+.container .add-element {
+  margin: 12px 0;
+}
+
+.container input {
+  padding: 6px 4px;
+  width: 70%;
+}
+
+.container button {
+  padding: 7px 14px;
+  background-color: #00b0ff;
+  border: none;
+  border-radius: 4px;
+  color: #fafafa;
+}
+
+.del {
+  padding: 7px 14px;
+  background-color: #00b0ff;
+  border: none;
+  border-radius: 4px;
+  color: #fafafa;
+}
+
+.element-list {
+  height: 550px;
+  overflow-y: auto;
+}
+
+.element-list ul {
+  padding: 15px;
+}
+
+.element-list li {
+  list-style: none;
+  padding: 10px 5px;
+  background-color: #fff;
+  margin: 12px 0;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+.checked {
+  text-decoration: line-through;
+  background-color: #e0e0e0;
+}
+/*# sourceMappingURL=style.css.map */
