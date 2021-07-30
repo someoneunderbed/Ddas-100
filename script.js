@@ -34,6 +34,7 @@ list.addEventListener('click', a => {
 // }
 
 // delBtn.addEventListener('click', () => { 
+//     Element.remove('li')
 // })
 
 
